@@ -2,7 +2,7 @@
 
 ## Overview
 
-* [Brief Description](README.md)
+* [Description](README.md)
 
 ## Methods
 
