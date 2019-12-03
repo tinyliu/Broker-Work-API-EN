@@ -4,10 +4,8 @@
 POST /v1/api/report/user/commission
 ```
 
-
-Use this interface to query the user commission status in the specified date range. If there are more subordinate users in the specified user and the transaction volume of these users is particularly large, 
+Use this interface to query the user commission status in the specified date range. If there are more subordinate users in the specified user and the transaction volume of these users is particularly large,   
 it is recommended that the date range of the query should not be too large. For example, you can query only one day's data at a time, then multiple requests.
-
 
 #### Request Headers
 
@@ -31,13 +29,12 @@ it is recommended that the date range of the query should not be too large. For 
 
 #### Response
 
-
 | Name | Type | Description |
 | :--- | :--- | :--- |
-| result | boolean |Success ID，if success then return true，others false |
+| result | boolean | Success ID，if success then return true，others false |
 | mcode | string | Error code，if success then return m00000，failure code see error map |
 | data | object | account data |
-| errorMessage | List | Error info, some error returns values|
+| errorMessage | List | Error info, some error returns values |
 
 ##### 1、data type
 
@@ -133,7 +130,7 @@ Return sample：failed
 
 | mcode | Message |
 | :--- | :--- |
-| BW\_REPORT\_0000 | parameters error|
+| BW\_REPORT\_0000 | parameters error |
 | RIGHT\_NO\_00000001 | No permission to view this data |
 | BW\_REPORT\_0022 | User not exist |
 | BW\_REPORT\_0023 | serverId not exist |

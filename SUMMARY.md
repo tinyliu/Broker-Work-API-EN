@@ -9,7 +9,6 @@
 * [Add user](tian-jia-yong-hu.md)
 * [Modify user ](xiu-gai-yong-hu.md)
 * [Add promotion links](tian-jia-tui-guang-lian-jie.md)
-* [User commission table](methods.md)
 * [Query account info](cha-xun-zhang-hu-xin-xi.md)
 * [Query account info through the user ID](gen-ju-yong-hu-id-cha-xun-gui-shu-gai-yong-hu-de-zhang-hu-xin-xi.md)
 * [Query account holding position](cha-xun-zhang-hu-chi-cang-xin.md)
